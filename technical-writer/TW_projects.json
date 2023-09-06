@@ -1,0 +1,49 @@
+
+[
+
+  {
+    "name": "project 1",
+    "description": "description yet to be determined",
+    "image_url": "../images/tw_project_images/carpentries_incubator_before_image.png",
+    "image_alt": "alt of image",
+
+    "details": {
+      "project_details": "I dont have the details yet",
+      "Documentation tools used": " who knows",
+      "what_i_learned": "I still dont know yet",
+      "challanges": " only God knows for now"
+
+    }
+  },
+
+    {
+      "name": "project 2",
+      "description": "description yet to be determined",
+      "image_url": "../images/tw_project_images/carpentries_incubator_before_image.png",
+      "image_alt": "alt of image",
+
+      "details": {
+        "project_details": "I dont have the details yet",
+        "Documentation tools used": " who knows",
+        "what_i_learned": "I still dont know yet",
+        "challanges": " how God knows for now"
+  
+      }
+  },
+
+  {
+    "name": "project 3",
+    "description": "description yet to be determined",
+    "image_url": "../images/tw_project_images/carpentries_incubator_before_image.png",
+    "image_alt": "alt of image",
+
+    "details": {
+      "project_details": "I dont have the details yet",
+      "Documentation tools used": " who knows",
+      "what_i_learned": "I still dont know yet",
+      "challanges": " okay God knows for now"
+
+    }
+}
+
+]

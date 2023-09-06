@@ -1,0 +1,66 @@
+#ci-main{
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-image: url("../images/blob.svg");
+  background-size: contain;
+  background-repeat: repeat; */
+}
+
+#contact-links-container{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact-links-container > a{
+  width: 65%;
+  min-width: 103px;
+  margin: 20px;
+  font-size: 1.2rem;
+  padding: 10px;
+  box-shadow: 15px 15px 0px var(--color-buttons);
+  color: #fff;
+}
+
+#contact-links-container > a:hover{
+  box-shadow: 2px 2px 30px var(--color-buttons), 
+  -2px -2px 30px var(--color-buttons);
+  color: var(--color-btn-hover);
+}
+
+#contact-links-container > a > ion-icon{
+  font-size: 1.7rem;
+  margin-right: 15px;
+  position: relative;
+  top: 6px;
+}
+
+#twitter{
+--color-buttons:#26a7de;
+}
+
+#linkedin{
+  --color-buttons: #0077B5;
+}
+
+#whatsapp{
+  --color-buttons: #075e54;
+}
+
+#email{
+  --color-buttons: #C71610;
+}
+
+#github{
+  --color-buttons: #000;
+}
+
+#phone{
+  --color-buttons: rgb(48, 104, 5);
+}
+
