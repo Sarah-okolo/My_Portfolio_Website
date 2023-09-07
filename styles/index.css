@@ -226,7 +226,8 @@ main{
 
 #info-content-wrapper{
   width: 100%;
-  /* background-color: red; */
+  margin-top: 3em;
+  padding: 0px 15px;
 }
 
 #my-name, #what-i-do, .linkbuttons-container{
@@ -245,7 +246,6 @@ main{
 .linkbuttons-container{
   display: flex;
   justify-content: space-between;
-  padding-bottom: 70px;
 }
 
 .btns{
