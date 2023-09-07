@@ -226,7 +226,7 @@ main{
 
 #info-content-wrapper{
   width: 100%;
-  height: 50%;
+  /* background-color: red; */
 }
 
 #my-name, #what-i-do, .linkbuttons-container{
