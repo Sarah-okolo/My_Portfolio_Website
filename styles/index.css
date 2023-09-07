@@ -205,7 +205,6 @@ main{
   min-height: 100%;
   display: grid;
   place-items: center;
-
 }
 
 #info-content-wrapper{
@@ -230,7 +229,7 @@ main{
 .linkbuttons-container{
   display: flex;
   justify-content: space-between;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 
 .btns{
