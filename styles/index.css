@@ -340,6 +340,7 @@ main{
 
   #logo{
     font-size: 1.3em;
+    margin-left: 5px;
   }
 
   #theme-toggle-btn, #burger-menu{
@@ -349,6 +350,7 @@ main{
 
    #burger-menu{
     top: -1px;
+    font-size: 1.8em;
   }
 
   header{
