@@ -215,7 +215,7 @@ main{
 }
 
 #my-name, #what-i-do, .linkbuttons-container{
-  margin-bottom: 2.3em;
+  margin-bottom: 2em;
 }
 
 #my-name{
@@ -230,6 +230,7 @@ main{
 .linkbuttons-container{
   display: flex;
   justify-content: space-between;
+  margin-top: .5em;
 }
 
 .btns{
@@ -305,18 +306,6 @@ main{
   width: 100%;
   z-index: -1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 700px){
