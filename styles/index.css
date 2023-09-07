@@ -229,7 +229,7 @@ main{
 .linkbuttons-container{
   display: flex;
   justify-content: space-between;
-  margin-top: 1em;
+  margin-top: 7em;
 }
 
 .btns{
