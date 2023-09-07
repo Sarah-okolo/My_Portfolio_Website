@@ -19,7 +19,6 @@
 
 #contact-links-container > a{
   width: 65%;
-  min-width: 103px;
   margin: 20px;
   font-size: 1.2rem;
   padding: 10px;
@@ -64,3 +63,11 @@
   --color-buttons: rgb(48, 104, 5);
 }
 
+
+@media screen and (max-width: 700px){
+
+  #contact-links-container{
+    width: 100%;
+  }
+  
+}
