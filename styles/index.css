@@ -105,7 +105,7 @@ header{
   font-weight:900;
   cursor: pointer;
   position: absolute;
-  right:10px;
+  right:15px;
   top: 10px;
 }
 
@@ -140,6 +140,7 @@ header{
 
 #nav-menu>ul>li:hover{
   border-left:3px dashed var(--color-buttons);
+  color: var(--color-buttons);
 }
 
 .menu{
@@ -168,12 +169,10 @@ header{
 
 
 footer{
-  position: absolute;
   width: 100%;
   text-align: center;
   background-color: var(--color-page-background);
-  width: 100%;
-  padding: 21px;
+  padding: 20px;
   box-shadow: var(--bx-shadow);
   color: var(--color-faint-text);
   transition: background-color .3s;
@@ -227,11 +226,15 @@ main{
 
 #info-content-wrapper{
   width: 100%;
-  height: 75%;
+  height: 50%;
 }
 
 #my-name, #what-i-do, .linkbuttons-container{
-  margin: 4em 2em;
+  margin-bottom: 2em;
+}
+
+#my-name{
+  margin-bottom: 1em;
 }
 
 #what-i-do{
@@ -242,7 +245,7 @@ main{
 .linkbuttons-container{
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .btns{
@@ -367,7 +370,7 @@ main{
   }
 
   #my-name{
-    margin: .1em 1em;
+    margin: 1.2em 1em .5em;
   }
 
   #what-i-do{
@@ -377,5 +380,13 @@ main{
   .showMenu{
     width:50%;
  }
+
+ #info-content-wrapper{
+  height: 100%;
+}
+
+ .linkbuttons-container{
+  padding: 0px 2em;
+}
 
 }
