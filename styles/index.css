@@ -152,22 +152,6 @@ header{
    /* width:50%; */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
   width: 100%;
   text-align: center;
@@ -231,7 +215,7 @@ main{
 }
 
 #my-name, #what-i-do, .linkbuttons-container{
-  margin-bottom: 2em;
+  margin-bottom: 2.3em;
 }
 
 #my-name{
@@ -239,7 +223,7 @@ main{
 }
 
 #what-i-do{
-  line-height: 1.6em;
+  line-height: 1.7em;
   color: var(--color-faint-text);
 }
 
