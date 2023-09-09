@@ -224,15 +224,13 @@ main{
   border-left: 2px solid var(--color-buttons);
   animation: typing 2s steps(20) infinite alternate;
 }
-/*  */
+
 @keyframes typing {
   100%{
     left:100%;
     margin-left: 40px;
   }
 }
-
-
 
 #info-content-wrapper{
   width: 100%;
@@ -370,6 +368,8 @@ main{
 
   #my-name{
     margin: 1em 1em;
+    font-size: 1.6em;
+    line-height: 34px;
   }
 
   #what-i-do{
