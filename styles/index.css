@@ -152,22 +152,6 @@ header{
    /* width:50%; */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
   width: 100%;
   text-align: center;
@@ -221,7 +205,6 @@ main{
   min-height: 100%;
   display: grid;
   place-items: center;
-
 }
 
 #info-content-wrapper{
@@ -239,13 +222,14 @@ main{
 }
 
 #what-i-do{
-  line-height: 1.6em;
+  line-height: 1.7em;
   color: var(--color-faint-text);
 }
 
 .linkbuttons-container{
   display: flex;
   justify-content: space-between;
+  margin-top: 4em;
 }
 
 .btns{
@@ -321,18 +305,6 @@ main{
   width: 100%;
   z-index: -1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 700px){
