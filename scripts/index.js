@@ -1,9 +1,15 @@
+AOS.init();
+
 const themeChangeBtn = document.getElementById("theme-toggle-btn");
 const themeIcon = document.getElementById("theme-icon");
-
+const navMenu = document.getElementById("nav-menu");
+const burgerIcon = document.getElementById("burger-menu");
+const closeMenuIcon = document.getElementById("closeMenuIcon");
+const textChange = document.getElementById("text-change");
+const docsTypeArr = ["User Guides", "Project Documentation", "How-To Guides", "Blog Posts / Articles", "API Documentation"];
+const infoSection = document.getElementById("info");
+const imgWrapper = document.querySelector(".img-wrapper");
 let savedThemeChoice = localStorage.getItem("themeChoice");
-
-//console.log(savedThemeChoice == null)
 
 
   // Check if a theme choice has been saved
@@ -36,10 +42,6 @@ themeChangeBtn.onclick = (e) => {
 
 
 // nav menu
-const navMenu = document.getElementById("nav-menu");
-const burgerIcon = document.getElementById("burger-menu");
-const closeMenuIcon = document.getElementById("closeMenuIcon");
-
 burgerIcon.onclick=()=>{	
 navMenu.classList.add("showMenu");
 }
@@ -48,3 +50,17 @@ navMenu.classList.add("showMenu");
 closeMenuIcon.onclick=()=>{
   navMenu.classList.remove("showMenu");
 }
+
+
+let counter = 0;
+// changes the text of an element dynamically
+let changeText = () => {
+  if (counter < docsTypeArr.length){
+    textChange.innerText = docsTypeArr[counter]; // change text content to items in array.
+    counter++;
+  }
+  else{
+    counter = 0;
+  }
+}
+setInterval(changeText, 4000);

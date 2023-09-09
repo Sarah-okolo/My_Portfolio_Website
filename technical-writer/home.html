@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="../styles/index.css">
   <title>Sarah Okolo</title>
 </head>
@@ -38,24 +39,24 @@
   </header>
 
   <main id="tw-main" class="main-section">
-    <div id="info">
+    <div id="info"  data-aos="fade-up" data-aos-delay="400">
       <div id="info-content-wrapper">
-        <h1 id="my-name">Hi there, I write<br><span class="highlight" id="text-change">API Documentations</span></h1>
+          <h1 id="my-name">I Specialise in Crafting Intricate<br> <span id="text-change" class="highlight">API Documentation</span></h1>
 
         <p id="what-i-do">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis pretium
-          nisl, nec commodo est. Fusce laoreet consequat sapien, eu fermentum ex pulvinar
-          eget. Praesent hendrerit nulla in varius pharetra.
+          As a technical writer, I utilize a range of proficient documentation tools, 
+          such as Confluence, Gitbook, Microsoft Word, Github, and Jekyll. Coupled with my extensive proficiency in markdown, 
+          I strive to create not only comprehensive, but also, clear, concise, timeless and scalable software documentations.
         </p>
 
         <div class="linkbuttons-container">
           <a href="./projects.html" id="vmw-linkbtn" class="btns">View My Work</a>
-          <a href="../contact-info.html" id="ttm-linkbtn" class="btns">Talk To Me</a>
+          <a href="../contact-info.html" id="ttm-linkbtn" class="btns">Get In Touch</a>
         </div>
       </div>
     </div>
 
-    <div class="img-wrapper">
+    <div class="img-wrapper"  data-aos="fade-left">
       <img src="../images/profile_pic.png" alt="my profile picture" id="profile-pic">
       <img src="../images/tttwinkle.svg" alt="design" id="twinkle-design">
     </div>
@@ -70,7 +71,7 @@
     </p>
   </footer>
 
-
-<script type="module" src="../scripts/index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="module" src="../scripts/index.js"></script>
 </body>
 </html>

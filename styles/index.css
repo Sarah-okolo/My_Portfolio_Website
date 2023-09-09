@@ -207,18 +207,45 @@ main{
   place-items: center;
 }
 
+#text-change{
+  position: relative;
+  padding: 2px 0px;
+  line-height: 10px;
+}
+
+#text-change::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-page-background);
+  border-left: 2px solid var(--color-buttons);
+  animation: typing 2s steps(20) infinite alternate;
+}
+/*  */
+@keyframes typing {
+  100%{
+    left:100%;
+    margin-left: 40px;
+  }
+}
+
+
+
 #info-content-wrapper{
   width: 100%;
   margin-top: 3em;
   padding: 0px 15px;
 }
 
-#my-name, #what-i-do, .linkbuttons-container{
+#what-i-do, .linkbuttons-container{
   margin-bottom: 2em;
 }
 
 #my-name{
-  margin-bottom: 1em;
+  margin-bottom: .8em;
 }
 
 #what-i-do{
@@ -229,7 +256,7 @@ main{
 .linkbuttons-container{
   display: flex;
   justify-content: space-between;
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 .btns{
@@ -342,11 +369,11 @@ main{
   }
 
   #my-name{
-    margin: 1.2em 1em .5em;
+    margin: 1em 1em;
   }
 
   #what-i-do{
-    margin: 2em;
+    margin: 1.2em 2em .1em;
   }
 
   .showMenu{
