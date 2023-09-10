@@ -26,3 +26,13 @@ h1{
   text-align: center;
   display: none;
 }
+
+.preview-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.see-details-overlay > a{
+  border-radius: 20px;
+}

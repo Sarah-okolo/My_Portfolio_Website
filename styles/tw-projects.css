@@ -46,7 +46,15 @@ h1{
   position: relative;
 }
 
+.see-details-btn{
+  border: 1px solid var(--color-buttons);
+  border-radius: 20px;
+  padding: 13px
+}
 
+.see-details-btn:hover{
+  color: #111
+}
 
 
 

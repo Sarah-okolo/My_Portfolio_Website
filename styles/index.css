@@ -183,45 +183,47 @@ footer > p > ion-icon:nth-child(4){
   color: var(--color-reddish-pink);
 }
 
-#projects-container{
+#projects-container, #blog-post-cards-container{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
   height: auto;
   margin: 15px 0px;
-  padding: 20px;
+  padding: 15px;
 }
 
+
+/* beginning of dynamic cards styling */
 .card{
   background-color: var(--color-card-background);
   box-shadow: var(--bx-shadow);
   overflow: hidden;
   border-radius: var(--card-border-radius);
-  margin-bottom: 40px;
+  margin: 20px 5px;
   height: 250px;
   width: 30%;
-  min-width: 250px;
+  min-width: 280px;
   max-width: 500px;
   padding: 15px;
   position: relative;
 }
 
+.title{
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
 .preview-image{
-  height: 40%;
+  height: 50%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .preview-info{
-  height: 60%;
+  height: 50%;
   font-size: .8rem;
   padding: 5px;
-}
-
-.description{
-  color: var(--color-dark-variant);
-  margin: 10px;
 }
 
 .date-and-tag{
@@ -259,16 +261,8 @@ footer > p > ion-icon:nth-child(4){
   width: 100%;
   background-color: var(--shadow-overlay);
 }
+/* end of dynamic card styling */
 
-.see-details-btn{
-  border: 1px solid var(--color-buttons);
-  border-radius: 20px;
-  padding: 13px
-}
-
-.see-details-btn:hover{
-  color: #111
-}
 /* End of consistent styling */
 
 
@@ -454,6 +448,7 @@ main{
     margin: 1em 1em;
     font-size: 1.6em;
     line-height: 34px;
+    overflow: hidden;
   }
 
   #what-i-do{
@@ -470,18 +465,6 @@ main{
 
  .linkbuttons-container{
   padding: 0px 2em;
-}
-
-.card{
-  width: 90%;
-}
-
-.title{
-  font-size: .9em;
-}
-
-.description, .date-and-tag{
-  font-size: .9em;
 }
 
 }
