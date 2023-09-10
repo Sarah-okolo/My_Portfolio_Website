@@ -4,7 +4,7 @@
   {
     "cover_image": "./images/blog_posts_images/bdd post.png",
     "name": "Behavior Driven Development (BDD) -- Bridging The Gap Between Business And Software Testing",
-    "date_posted": "Date-posted: 07/09/23",
+    "date_posted": "Published: 07/09/23",
     "location": "External",
     "link": "https://blog.openreplay.com/behavior-driven-development-bdd-bridging-gaps/"
   },
@@ -12,7 +12,7 @@
   {
     "cover_image": "./images/blog_posts_images/please-hire-me.jpg",
     "name": "If you are begging to be hired, you are probably doing something very wrong",
-    "date_posted": "Date-posted: 15/08/23",
+    "date_posted": "Published: 15/08/23",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/if-you-are-begging-to-be-hired-you-are-probably-doing-something-very-wrong-2cg8"
   },
@@ -20,7 +20,7 @@
   {
     "cover_image": "./images/blog_posts_images/nodejs-event-loop-post.webp",
     "name": "Understanding The Event Loop in NodeJs Easily",
-    "date_posted": "Date-posted: 08/08/23",
+    "date_posted": "Published: 08/08/23",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/understanding-the-event-loop-in-nodejs-easily-399m"
   },
@@ -28,7 +28,7 @@
   {
     "cover_image": "./images/blog_posts_images/live-search-post.png",
     "name": "Implementing Live Search Functionality In JavaScript",
-    "date_posted": "Date-posted: 31/07/23",
+    "date_posted": "Published: 31/07/23",
     "location": "External",
     "link": "https://blog.openreplay.com/implementing-live-search-functionality-in-javascript/"
   },
@@ -36,7 +36,7 @@
   {
     "cover_image": "./images/blog_posts_images/why-learning-to-program-post.webp",
     "name": "Why Learning to Program is Easier Now, But Also Way Harder Than Before",
-    "date_posted": "Date-posted: 21/07/23",
+    "date_posted": "Published: 21/07/23",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/why-learning-to-program-is-easier-now-but-also-way-harder-than-before-24gn"
   },
@@ -44,7 +44,7 @@
   {
     "cover_image": "./images/blog_posts_images/mapbox-post.webp",
     "name": "Creating an Interactive Earth visualization with JavaScript and the Mapbox GL JS API",
-    "date_posted": "Date-posted: 15/07/23",
+    "date_posted": "Published: 15/07/23",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/creating-an-interactive-earth-visualization-with-javascript-and-the-mapbox-gl-js-api-4464"
   },
@@ -52,7 +52,7 @@
   {
     "cover_image": "./images/blog_posts_images/impact-of-agile-post.jpg",
     "name": "The Impact Of Agile Methodologies On Code Quality",
-    "date_posted": "Date-posted: 25/05/23",
+    "date_posted": "Published: 25/05/23",
     "location": "External",
     "link": "https://www.smashingmagazine.com/2023/05/impact-agile-methodologies-code-quality/"
   },
@@ -60,7 +60,7 @@
   {
     "cover_image": "./images/blog_posts_images/potential-of-web-workers-post.jpg",
     "name": "Exploring The Potential Of Web Workers For Multithreading On The Web",
-    "date_posted": "Date-posted: 21/04/23",
+    "date_posted": "Published: 21/04/23",
     "location": "External",
     "link": "https://www.smashingmagazine.com/2023/04/potential-web-workers-multithreading-web/"
   },
@@ -68,7 +68,7 @@
   {
     "cover_image": "./images/blog_posts_images/mastering-javascript-post.png",
     "name": "Mastering JavaScript: Optional Chaining And Nullish Coalescing",
-    "date_posted": "Date-posted: 13/03/23",
+    "date_posted": "Published: 13/03/23",
     "location": "External",
     "link": "https://blog.openreplay.com/mastering-javascript-optional-chaining-and-nullish-coalescing/"
   },
@@ -76,7 +76,7 @@
   {
     "cover_image": "./images/blog_posts_images/importance-of-cdn-post.webp",
     "name": "The Importance of CDN for Scalable Web Applications",
-    "date_posted": "Date-posted: 12/02/23",
+    "date_posted": "Published: 12/02/23",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/the-importance-of-cdn-for-scalable-web-applications-8ej"
   },
@@ -84,7 +84,7 @@
   {
     "cover_image": "./images/blog_posts_images/mastering-i18n-and-l10n-post.webp",
     "name": "Mastering Internationalization and Localization in JavaScript: A Comprehensive Guide",
-    "date_posted": "Date-posted: 31/01/23",
+    "date_posted": "Published: 31/01/23",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/mastering-internationalization-and-localization-in-javascript-a-comprehensive-guide-50ma"
   },
@@ -92,7 +92,7 @@
   {
     "cover_image": "./images/blog_posts_images/tracking-user-ethical-post.jpg",
     "name": "Is Tracking User Behavior with JavaScript Ethical?",
-    "date_posted": "Date-posted: 28/01/23",
+    "date_posted": "Published: 28/01/23",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/is-tracking-user-behavior-with-javascript-ethical-2km8"
   },
@@ -100,7 +100,7 @@
   {
     "cover_image": "./images/blog_posts_images/optimizing-react-app-post.webp",
     "name": "Best practices for optimizing the performance of your React application",
-    "date_posted": "Date-posted: 23/01/23",
+    "date_posted": "Published: 23/01/23",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/best-practices-for-optimizing-the-performance-of-your-react-application-2e4c"
   },
@@ -108,7 +108,7 @@
   {
     "cover_image": "./images/blog_posts_images/metaprogramming-post.webp",
     "name": "Exploring Metaprogramming, Proxying And Reflection In JavaScript",
-    "date_posted": "Date-posted: 29/12/22",
+    "date_posted": "Published: 29/12/22",
     "location": "External",
     "link": "https://blog.openreplay.com/exploring-metaprogramming-proxying-and-reflection-in-javascript/"
   },
@@ -116,7 +116,7 @@
   {
     "cover_image": "./images/blog_posts_images/variadic-function-post.webp",
     "name": "Variadic Functions in JavaScript - Understand the Basic Usage and Benefits",
-    "date_posted": "Date-posted: 01/12/22",
+    "date_posted": "Published: 01/12/22",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/variadic-functions-in-javascript-understand-the-basic-usage-and-benefits-4m8n"
   },
@@ -124,7 +124,7 @@
   {
     "cover_image": "./images/blog_posts_images/shell-nav-post.webp",
     "name": "Shell Navigations for Beginners",
-    "date_posted": "Date-posted: 16/11/22",
+    "date_posted": "Published: 16/11/22",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/shell-navigations-for-beginners-2p3a"
   },
@@ -132,7 +132,7 @@
   {
     "cover_image": "./images/blog_posts_images/gui-and-cli-post.webp",
     "name": "Understanding What a GUI and a CLI Is in Your Computer System",
-    "date_posted": "Date-posted: 13/11/22",
+    "date_posted": "Published: 13/11/22",
     "location": "Home",
     "link": "https://dev.to/sarahokolo/understanding-what-a-gui-and-a-cli-is-in-your-computer-system-4g9"
   }

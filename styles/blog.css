@@ -20,7 +20,7 @@ h1{
 
 #blog-type-info{
   box-shadow: var(--bx-shadow);
-  width: 100%;
+  width: 50%;
   height: auto;
   padding: 20px;
   text-align: center;

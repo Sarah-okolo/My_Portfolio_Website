@@ -209,11 +209,6 @@ footer > p > ion-icon:nth-child(4){
   position: relative;
 }
 
-.title{
-  font-size: 1.2em;
-  margin-top: 5px;
-}
-
 .preview-image{
   height: 50%;
   display: flex;
@@ -224,6 +219,11 @@ footer > p > ion-icon:nth-child(4){
   height: 50%;
   font-size: .8rem;
   padding: 5px;
+}
+
+.title{
+  font-size: 1.2em;
+  margin-top: 5px;
 }
 
 .date-and-tag{
