@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <link rel="stylesheet" href="../styles/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/blog.css">
   <title>Sarah Okolo</title>
 </head>
 <body>
@@ -39,10 +41,122 @@
 
   <main id="blogs-main">
     <h1>My Blogs</h1>
-   <h2>Home Blog</h2>
+    <div id="blog-pick" class="highlight">
+      <span id="home-blog">Home Blog</span>
+      <span id="ex-blog">External Blogs</span>
+    </div>
+    <div id="blog-type-info"> 
+      These are blog posts posted on my personal blogs like dev.to and hashnode.
+      These are blog posts posted on other publications
+    </div>
+    <!-- <h2>Latest</h2> -->
 
-   <h2>External Blogs</h2>
-  </main>
+    <div id="projects-container">
+      <!-- project cards goes in here -->
+      <div class="card">
+        <div class="preview-image">
+          <img src="./images/blog_posts_images/please-hire-me.jpg" alt="post cover image">
+        </div>
+
+        <div class="preview-info">
+          <h2 class="title">If you are begging to be hired, you are probably doing something very wrong</h2>
+          <p class="description">
+            A lot of developers seeking for jobs don't really know how to go about it,
+             hence they find themselves in the comment sections or DMs of recruiters begging to be hired.
+          </p>
+          <div class="date-and-tag">
+            <span class="date-posted">Date-posted: 15/08/23</span>
+            <span class="tag brown">Home</span>
+          </div>
+        </div>
+
+        <div class="see-details-overlay"> <a href="https://dev.to/sarahokolo/if-you-are-begging-to-be-hired-you-are-probably-doing-something-very-wrong-2cg8" class="btns post-link">Read me</a></div>
+      </div>
+
+
+      <div class="card">
+        <div class="preview-image">
+          <img src="./images/blog_posts_images/bdd post.png" alt="post cover image">
+        </div>
+
+        <div class="preview-info">
+          <h2 class="title">Behavior Driven Development (BDD) -- Bridging The Gap Between Business And Software Testing</h2>
+          <p class="description">
+            Behaviour-Driven Development, commonly referred to as BDD, 
+            is a method used in software development to align software development process with its business requirements.
+          </p>
+          <div class="date-and-tag">
+            <span class="date-posted">Date-posted: 07/09/23</span>
+            <span class="tag green">External</span>
+          </div>
+        </div>
+
+        <div class="see-details-overlay"> <a href="https://blog.openreplay.com/behavior-driven-development-bdd-bridging-gaps/" class="btns post-link">Read me</a></div>
+      </div>
+
+      <div class="card">
+        <div class="preview-image">
+          <img src="./images/blog_posts_images/please-hire-me.jpg" alt="post cover image">
+        </div>
+
+        <div class="preview-info">
+          <h2 class="title">If you are begging to be hired, you are probably doing something very wrong</h2>
+          <p class="description">
+            A lot of developers seeking for jobs don't really know how to go about it,
+             hence they find themselves in the comment sections or DMs of recruiters begging to be hired.
+          </p>
+          <div class="date-and-tag">
+            <span class="date-posted">Date-posted: 15/08/23</span>
+            <span class="tag brown">Home</span>
+          </div>
+        </div>
+
+        <div class="see-details-overlay"> <a href="https://dev.to/sarahokolo/if-you-are-begging-to-be-hired-you-are-probably-doing-something-very-wrong-2cg8" class="btns post-link">Read me</a></div>
+      </div>
+
+
+      <div class="card">
+        <div class="preview-image">
+          <img src="./images/blog_posts_images/bdd post.png" alt="post cover image">
+        </div>
+
+        <div class="preview-info">
+          <h2 class="title">Behavior Driven Development (BDD) -- Bridging The Gap Between Business And Software Testing</h2>
+          <p class="description">
+            Behaviour-Driven Development, commonly referred to as BDD, 
+            is a method used in software development to align software development process with its business requirements.
+          </p>
+          <div class="date-and-tag">
+            <span class="date-posted">Date-posted: 07/09/23</span>
+            <span class="tag green">External</span>
+          </div>
+        </div>
+
+        <div class="see-details-overlay"> <a href="https://blog.openreplay.com/behavior-driven-development-bdd-bridging-gaps/" class="btns post-link">Read me</a></div>
+      </div>
+
+      <div class="card">
+        <div class="preview-image">
+          <img src="./images/blog_posts_images/please-hire-me.jpg" alt="post cover image">
+        </div>
+
+        <div class="preview-info">
+          <h2 class="title">If you are begging to be hired, you are probably doing something very wrong</h2>
+          <p class="description">
+            A lot of developers seeking for jobs don't really know how to go about it,
+             hence they find themselves in the comment sections or DMs of recruiters begging to be hired.
+          </p>
+          <div class="date-and-tag">
+            <span class="date-posted">Date-posted: 15/08/23</span>
+            <span class="tag brown">Home</span>
+          </div>
+        </div>
+
+        <div class="see-details-overlay"> <a href="https://dev.to/sarahokolo/if-you-are-begging-to-be-hired-you-are-probably-doing-something-very-wrong-2cg8" class="btns post-link">Read me</a></div>
+      </div>
+
+    </div>
+   </main>
 
   <footer>
     <p>Built with:
@@ -53,7 +167,7 @@
     </p>
   </footer>
 
-
-<script type="module" src="../scripts/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="module" src="./scripts/main.js"></script>
 </body>
 </html>

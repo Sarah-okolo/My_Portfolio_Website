@@ -1,0 +1,28 @@
+#blogs-main{
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+  margin: 5px;
+}
+
+#blog-pick{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-size: 1.3em;
+}
+
+#blog-pick > span:hover{
+  border-bottom: 3px dashed var(--color-buttons);
+}
+
+#blog-type-info{
+  box-shadow: var(--bx-shadow);
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  display: none;
+}

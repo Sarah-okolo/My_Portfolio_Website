@@ -1,0 +1,31 @@
+
+[
+
+  {
+    "post_name": "If you are begging to be hired, you are probably doing something very wrong",
+    "post_CI": "./images/blog_posts_images/please-hire-me.jpg",
+    "short_description": "A lot of developers seeking for jobs don't really know how to go about it, hence they find themselves in the comment sections or DMs of recruiters begging to be hired.",
+    "date_posted": "Date-posted: 15/08/23",
+    "post_link": "https://dev.to/sarahokolo/if-you-are-begging-to-be-hired-you-are-probably-doing-something-very-wrong-2cg8",
+    "post-location": "Home"
+  },
+
+  {
+    "post_name": "Behavior Driven Development (BDD) -- Bridging The Gap Between Business And Software Testing",
+    "post_CI": "./images/blog_posts_images/bdd post.png",
+    "short_description": "Behaviour-Driven Development, commonly referred to as BDD, is a method used in software development to align software development process with its business requirements. ",
+    "date_posted": "Date-posted: 07/09/23",
+    "post_link": "https://blog.openreplay.com/behavior-driven-development-bdd-bridging-gaps/",
+    "post-location": "External"
+
+  },
+
+  {
+    "post_name": "If you are begging to be hired, you are probably doing something very wrong",
+    "post_CI": "./images/blog_posts_images/please-hire-me.jpg",
+    "short_description": "A lot of developers seeking for jobs don't really know how to go about it, hence they find themselves in the comment sections or DMs of recruiters begging to be hired.",
+    "date_posted": "Date-posted: 15/08/23",
+    "post_link": "https://dev.to/sarahokolo/if-you-are-begging-to-be-hired-you-are-probably-doing-something-very-wrong-2cg8"
+  }
+
+]

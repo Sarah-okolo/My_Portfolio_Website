@@ -5,7 +5,7 @@
 --color-warning: #f1c12e;
 --color-danger: #d82121;
 --color-success: #1B9C85;
---color-dark-variant: #677483;
+--color-dark-variant: #9faab6;
 --color-blue: #6C9BCF;
 --color-reddish-pink: #ff006a;
 
@@ -33,7 +33,9 @@
   --color-text: #111;
   --color-faint-text: #323e46;
   --color-card-background: #e6f7f3;
-  --color-btn-hover: black
+  --color-btn-hover: black;
+  --color-dark-variant: #515962;
+
 }
 
 /* Start Of Consistent Styling */
@@ -181,9 +183,91 @@ footer > p > ion-icon:nth-child(4){
   color: var(--color-reddish-pink);
 }
 
+#projects-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin: 15px 0px;
+  padding: 20px;
+}
+
 .card{
   background-color: var(--color-card-background);
   box-shadow: var(--bx-shadow);
+  overflow: hidden;
+  border-radius: var(--card-border-radius);
+  margin-bottom: 40px;
+  height: 250px;
+  width: 30%;
+  min-width: 250px;
+  max-width: 500px;
+  padding: 15px;
+  position: relative;
+}
+
+.preview-image{
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.preview-info{
+  height: 60%;
+  font-size: .8rem;
+  padding: 5px;
+}
+
+.description{
+  color: var(--color-dark-variant);
+  margin: 10px;
+}
+
+.date-and-tag{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* .date-posted{
+  color: var(--color-dark-variant);
+} */
+
+.tag{
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.green{
+  background-color: rgb(143, 212, 143);
+  color: #444;
+}
+
+.brown{
+  color: #ddd;
+  background-color: #632424;
+}
+
+.see-details-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--shadow-overlay);
+}
+
+.see-details-btn{
+  border: 1px solid var(--color-buttons);
+  border-radius: 20px;
+  padding: 13px
+}
+
+.see-details-btn:hover{
+  color: #111
 }
 /* End of consistent styling */
 
@@ -373,7 +457,7 @@ main{
   }
 
   #what-i-do{
-    margin: 1.2em 2em .1em;
+    margin: 1.2em 1.5em .1em;
   }
 
   .showMenu{
@@ -386,6 +470,18 @@ main{
 
  .linkbuttons-container{
   padding: 0px 2em;
+}
+
+.card{
+  width: 90%;
+}
+
+.title{
+  font-size: .9em;
+}
+
+.description, .date-and-tag{
+  font-size: .9em;
 }
 
 }
