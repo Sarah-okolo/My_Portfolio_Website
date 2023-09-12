@@ -7,11 +7,16 @@ h1{
   text-align: center;
 }
 
-#closeMenuIcon{
-  position: sticky;
+.close-details-overlay-btn{
   background-color: var(--color-page-background);
   z-index: 900;
-  top: 0;
+  color: var(--color-buttons);
+  position: fixed;
+  right: 30%;
+  font-size:2em;
+  font-weight:900;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .tw-project-previewimage{
@@ -35,15 +40,32 @@ h1{
 #details-card{
   background-color: var(--color-card-background);
   width: 50%;
-  height: 90%;
-  max-height: 90%;
+  height: 95%;
+  /* max-height: 90%; */
   min-width: 300px;
   max-width: 700px;
   overflow-y: auto;
-  /* overflow-x: hidden; */
+  /* overflow: hidden; */
   overflow-wrap: break-word;
   padding: 20px;
-  position: relative;
+  position: fixed;
+  border-radius: 20px;
+}
+
+#details-card > h2{
+  text-align: center;
+  margin: 30px 0px 10px;
+}
+
+#details-card > p{
+  color: var(--color-dark-variant);
+}
+
+.preview-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }
 
 .see-details-btn{

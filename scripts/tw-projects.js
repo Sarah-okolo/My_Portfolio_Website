@@ -4,7 +4,12 @@ const seeDetailsOverlay = document.querySelectorAll(".see-details-overlay");
 const closeDetailsOverlayBtn = document.querySelector(".close-details-overlay-btn");
 const projectDetailsContainer = document.getElementById("project-details-container");
 const detailsCard = document.getElementById("details-card");
-const wil = document.getElementById("wil");
+
+// elements for sections in the project details card.
+const challanges = document.getElementById("challanges");
+const docToolsUsed = document.getElementById("doc-tools-used");
+const whatILearned = document.getElementById("what-i-learned");
+
 
 
 
@@ -13,6 +18,7 @@ const fetchProjectInfo = async () => {
   try {
     const res = await fetch('../technical-writer/TW_projects.json'); //fetch data from json file
     const data = await res.json(); // Await the JSON data
+
   
       data.forEach((project) => {
        // Create the main card container
@@ -64,8 +70,16 @@ const fetchProjectInfo = async () => {
 
         projectCard.addEventListener('mouseover', ()=>{seeDetailsOverlay.style.display = "grid"})
         projectCard.addEventListener('mouseout', ()=>{seeDetailsOverlay.style.display = "none"})
-        projectCard.addEventListener('click', ()=>{projectDetailsContainer.style.display = "grid";})
-        // wil.textContent = project.name;
+        seeDetailsButton.addEventListener('click', ()=>{
+          projectDetailsContainer.style.display = "grid";
+
+          // populate details container sections with project details
+          challanges.innerHTML = project.details.challanges;
+          whatILearned.innerHTML = project.details.what_i_learned;
+          docToolsUsed.innerHTML= project.details.documentation_tools_used;
+
+        })
+        
       })
   }
   catch (error) {

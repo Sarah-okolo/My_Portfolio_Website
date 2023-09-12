@@ -6,12 +6,13 @@
     "description": "description yet to be determined",
     "image_url": "../images/tw_project_images/carpentries_incubator_before_image.png",
     "image_alt": "alt of image",
+    "doc-type": "Api Documentation",
 
     "details": {
       "project_details": "I dont have the details yet",
-      "Documentation tools used": " who knows",
+      "documentation_tools_used": " who knows",
       "what_i_learned": "I still dont know yet",
-      "challanges": " only God knows for now"
+      "challanges": " this is for <a href='https://www.agora.io/en/'>project</a> 1 oooo cheii"
 
     }
   },
@@ -24,9 +25,9 @@
 
       "details": {
         "project_details": "I dont have the details yet",
-        "Documentation tools used": " who knows",
+        "documentation_tools_used": " who knows",
         "what_i_learned": "I still dont know yet",
-        "challanges": " how God knows for now"
+        "challanges": " oh wow, so apparantly, <ion-icon name='logo-html5'></ion-icon>  this is for project 2"
   
       }
   },
@@ -39,9 +40,9 @@
 
     "details": {
       "project_details": "I dont have the details yet",
-      "Documentation tools used": " who knows",
+      "documentation_tools_used": " who knows",
       "what_i_learned": "I still dont know yet",
-      "challanges": " okay God knows for now"
+      "challanges": " nwaname, I cant believe we successfully made it to project 3 my guy"
 
     }
 }
