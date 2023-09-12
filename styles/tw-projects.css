@@ -19,6 +19,14 @@ h1{
   cursor: pointer;
 }
 
+.tw-project-card{
+  height: 280px;
+}
+
+.preview-image{
+  height: 40%;
+}
+
 .tw-project-previewimage{
   width: 100%;
   height: 100%;
@@ -57,8 +65,12 @@ h1{
   margin: 30px 0px 10px;
 }
 
-#details-card > p{
+#details-card > p, .preview-info > p{
   color: var(--color-dark-variant);
+}
+
+.project-description, .date-and-tag{
+  font-size: .75em;
 }
 
 .preview-info{
@@ -66,6 +78,7 @@ h1{
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
+  height: 60%;
 }
 
 .see-details-btn{
