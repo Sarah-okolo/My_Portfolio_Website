@@ -12,7 +12,7 @@ h1{
   z-index: 900;
   color: var(--color-buttons);
   position: fixed;
-  right: 30%;
+  right: 28%;
   font-size:2em;
   font-weight:900;
   border-radius: 5px;
@@ -50,7 +50,7 @@ h1{
   width: 50%;
   height: 95%;
   /* max-height: 90%; */
-  min-width: 300px;
+  min-width: 330px;
   max-width: 700px;
   overflow-y: auto;
   /* overflow: hidden; */
@@ -84,12 +84,61 @@ h1{
 .see-details-btn{
   border: 1px solid var(--color-buttons);
   border-radius: 20px;
-  padding: 13px
+  padding: 13px;
 }
 
 .see-details-btn:hover{
   color: #111
 }
 
+#site-link-wrapper{
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+}
+
+#site-link-wrapper > a{
+  font-weight: 900;
+}
+
+#versions-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#versions-container > a{
+  box-shadow: var(--bx-shadow);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+#details-card h2{
+  font-size: 1.3em;
+}
+
+/* #details-card p{
+  font-size: .9em;
+} */
+
+#details-card a{
+  color: var(--color-buttons);
+  font-weight: 500;
+}
+
+#details-card a:hover{
+  text-decoration: underline;
+}
+
+#details-card a:visited{
+  color: rgb(193, 128, 7);
+  font-weight: 100;
+}
+
+#live-site-link{
+  text-align: center;
+  width: 100%;
+}
 
 
