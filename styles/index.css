@@ -416,6 +416,11 @@ main{
   border-radius: 50%;
 }
 
+#profile-vector{
+  width: 70%;
+  object-fit: contain;
+}
+
 #twinkle-design{
   position: absolute;
   top: 0;
@@ -426,7 +431,12 @@ main{
   z-index: -1;
 }
 
-
+.vector{
+  width: 35%;
+  max-width: 800px;
+  min-width: 300px;
+  object-fit: contain;
+}
 @media screen and (max-width: 600px){
 
   body{
