@@ -15,7 +15,7 @@ h1{
 }
 
 #blog-pick > span:hover{
-  border-bottom: 3px dashed var(--color-buttons);
+  color: var(--color-buttons);
 }
 
 #blog-type-info{
@@ -25,6 +25,9 @@ h1{
   padding: 20px;
   text-align: center;
   display: none;
+  margin: 0 auto;
+  min-width: 450px;
+  border-radius: 15px;
 }
 
 .preview-info{

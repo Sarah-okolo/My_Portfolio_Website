@@ -3,9 +3,12 @@ AOS.init();
 const blogPostCardsContainer = document.getElementById("blog-post-cards-container");
 const seeDetailsOverlay = document.querySelectorAll(".see-details-overlay");
 const homeBlog = document.getElementById("home-blog");
-const ExternalBlog = document.getElementById("external-blog");
-
+const externalBlog = document.getElementById("external-blog");
+const blogTypeInfo = document.getElementById("blog-type-info");
+const errorContainer = document.querySelector(".error-container");
+let tag;
 let post_location;
+
 
 
 //fetch post details from json file and display on post card
@@ -46,16 +49,12 @@ const fetchBlogPostsInfo = async () => {
         datePosted.className = 'date-posted';
         datePosted.textContent = post.date_posted;
 
-        const tag = document.createElement('span');
+        tag = document.createElement('span');
         tag.className = 'tag'; 
         tag.textContent = post.location;
 
 
         
-        // post_location = post.location;
-
-
-
         // Sets the background color for the tag
         if (post.location == "External"){
           tag.classList.add("green");
@@ -77,6 +76,7 @@ const fetchBlogPostsInfo = async () => {
 
         // Append elements to their respective containers
         previewImage.appendChild(image);
+
         dateAndTag.appendChild(datePosted);
         dateAndTag.appendChild(tag);
 
@@ -93,20 +93,50 @@ const fetchBlogPostsInfo = async () => {
         // Append the blog post cards container to the blogPostCardsContainer
         blogPostCardsContainer.appendChild(postCard);
 
+
+        // set visibility state for the read me button overlay on hover in-out of each card
         postCard.addEventListener('mouseover', ()=>{seeDetailsOverlay.style.display = "grid"})
         postCard.addEventListener('mouseout', ()=>{seeDetailsOverlay.style.display = "none"})
-        // postCard.addEventListener('click', ()=>{postDetailsContainer.style.display = "grid";})
-        // wil.textContent = post.name;
+
+        // console.log(postCard.children[1].children[1].children[1].textContent)
+
+        if (postCard.children[1].children[1].children[1].textContent == "Home"){
+          console.log("from home");
+          postCard.style.display="none"
+        }
       })
   }
   catch (error) {
-    console.log(error)
-  }
+    errorContainer.style.display="grid";
+      console.log(error);
+}
 }
 fetchBlogPostsInfo();
 
 
+// displays the blogtypeinfo element and hides it if other parts of the page are clicked
+document.body.onclick = (e) => {
+  if (e.target.id=="home-blog" || e.target.id=="external-blog"){
+    blogTypeInfo.style.display="block";
+  }
+  else{
+    blogTypeInfo.style.display="none";
+  }
+}
+
+
 
 // homeBlog.onclick = () => {
-
+//   blogTypeInfo.innerHTML="These are blog posts posted on my personal blog pages like dev.to and hashnode.";
+//   if (postCard.children[1].children[1].children[1].textContent == "Home"){
+//     console.log("from home");
+//     postCard.style.display="none"
+//   }
+// }
+// externalBlog.onclick = () => {
+//   blogTypeInfo.innerHTML=" These are blog posts written for external publications";
+//   if (postCard.children[1].children[1].children[1].textContent == "External"){
+//     console.log("from external");
+//     postCard.style.display="none"
+//   }
 // }
