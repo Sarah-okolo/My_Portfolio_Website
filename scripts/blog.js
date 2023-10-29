@@ -99,9 +99,11 @@ const fetchBlogPostsInfo = async () => {
         postCard.addEventListener('mouseout', ()=>{seeDetailsOverlay.style.display = "none"})
 
         // console.log(postCard.children[1].children[1].children[1].textContent)
+        let howMany = 0;
 
         if (postCard.children[1].children[1].children[1].textContent == "Home"){
-          console.log("from home");
+          howMany += 1;
+          console.log(howMany);
           postCard.style.display="none"
         }
       })
@@ -126,17 +128,9 @@ document.body.onclick = (e) => {
 
 
 
-// homeBlog.onclick = () => {
-//   blogTypeInfo.innerHTML="These are blog posts posted on my personal blog pages like dev.to and hashnode.";
-//   if (postCard.children[1].children[1].children[1].textContent == "Home"){
-//     console.log("from home");
-//     postCard.style.display="none"
-//   }
-// }
-// externalBlog.onclick = () => {
-//   blogTypeInfo.innerHTML=" These are blog posts written for external publications";
-//   if (postCard.children[1].children[1].children[1].textContent == "External"){
-//     console.log("from external");
-//     postCard.style.display="none"
-//   }
-// }
+homeBlog.onclick = () => {
+  blogTypeInfo.innerHTML="These are articles posted on my personal blog page on Dev.to";
+}
+externalBlog.onclick = () => {
+  blogTypeInfo.innerHTML=" These are articles I've written for external publications";
+}

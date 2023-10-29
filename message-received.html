@@ -8,8 +8,26 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" href="../images/site_favicon.svg" sizes="62x62" type="image/png">
   <link rel="stylesheet" href="../styles/index.css">
-  <link rel="stylesheet" href="./styles/contact-info.css">
   <title>Sarah Okolo</title>
+  
+  <style>
+    #msg-recvd-main{
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+
+    .mail-image{
+      width: 25%;
+    }
+
+    h1{
+      line-height: 50px;
+      padding: 20px;
+      margin: 0 35px;
+    }
+  </style>
 </head>
 <body>
 
@@ -39,23 +57,10 @@
     </nav>
   </header>
 
-  <main id="ci-main">
-    <h1>Get in Touch</h1>
-    <div id="contact-links-container">
-      <a href="mailto:okolosarah402@gmail.com" class="btns" id="email" ><ion-icon name="mail"></ion-icon> Email</a>
-      <a href="https://github.com/Sarah-okolo" class="btns" id="github" ><ion-icon name="logo-github"></ion-icon> Github</a>
-      <a href="https://www.linkedin.com/in/sarah-okolo-0b2a04250/" class="btns" id="linkedin" ><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a>
-      <a href="https://wa.me/+2348128254204" class="btns" id="whatsapp" ><ion-icon name="logo-whatsapp"></ion-icon>Whatsapp</a>
-      <a href="https://twitter.com/SahraOke" class="btns" id="twitter"><ion-icon name="logo-twitter"></ion-icon><span style="text-decoration: line-through;">Twitter</span> X</a>
-      <a href="tel:+2348128254204" class="btns" id="phone" ><ion-icon name="call"></ion-icon>Phone</a>
-    </div>
-
-      <form name="message" id="message-form" action="https://formsubmit.co/970338de4aba6c58c4707050437661bf" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/message-recieved.html">
-        <textarea name="New message" id="message-textarea" placeholder="Tell me anything you would like me to know. PS. It's anonymous"></textarea>
-        <button type="submit" class="btns send-msg-btn">Send Message</button>
-      </form>   
+  <main id="msg-recvd-main">
+    <img src="./images/msg rcvd.svg" alt="mail vector" class="vector mail-image"/>
+    <h1>Message Received</h1>
+    <a href="./contact-info.html" class="btns">Go Back</a>
   </main>
 
 <!-- message recieved. Back to site -->

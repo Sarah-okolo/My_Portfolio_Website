@@ -82,6 +82,7 @@
   max-width: 40rem;
   color: var(--color-text);
   font-size: 1.1em;
+  caret-color: var(--color-buttons);
 }
 
 .send-msg-btn{
