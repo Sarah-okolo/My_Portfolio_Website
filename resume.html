@@ -19,9 +19,9 @@
     }
 
     #download-btn{
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       transition: none;
-      border: 2px solid var(--color-buttons);
+      border:none;
     }
 
     #download-btn:hover{
@@ -29,9 +29,8 @@
     }
 
     #download-btn > ion-icon{
-      font-size: 1rem;
       position: relative;
-      top: 4px;
+      top: 2px;
       left: 7px;
       border: none;
     }
@@ -42,6 +41,23 @@
       margin-bottom: 20px;
       border: 1px solid gray;
     }
+
+@media screen and (max-width: 600px){
+  #download-btn{
+      font-size: .8rem;
+      width: 60%;
+    }
+
+    
+    #download-btn > ion-icon{
+      top: 1px;
+    }
+
+    .resume{
+      width: 200px;
+    }
+
+}
   </style>
 </head>
 <body>
@@ -79,7 +95,7 @@
       Download Resume
    </a> -->
    
-    <a href="./images/tw_project_images/sarah-okolo-resume.pdf" class="btns" id="download-btn" download="sarah_okolo-resume.pdf">Download Resume <ion-icon name="download-outline" id="download-btn"></ion-icon></a>
+    <a href="./images/tw_project_images/sarah-okolo-resume.pdf" class="btns" id="download-btn" download="sarah_okolo-resume.pdf">Download Resume <ion-icon name="download-outline"></ion-icon></a>
   </main>
 
   <footer>
