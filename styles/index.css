@@ -60,6 +60,7 @@ html{
     font-family: var(--primary-font);
     text-decoration: none;
     outline: none;
+    scroll-behavior: smooth;
 }
   
 body{
@@ -69,7 +70,6 @@ body{
     color: var(--color-text);
     font-size: 15px;
 }
-
 
 header{
   position: sticky;
@@ -432,9 +432,7 @@ main{
 }
 
 .vector{
-  width: 35%;
-  max-width: 800px;
-  min-width: 300px;
+  width: max(300px, 35%); /* first value is the minimum value, second is the maximum */
   object-fit: contain;
 }
 
@@ -478,6 +476,10 @@ main{
    #burger-menu{
     top: -1px;
     font-size: 1.8em;
+  }
+
+  .btns {
+    font-size: .9rem;
   }
 
   header{

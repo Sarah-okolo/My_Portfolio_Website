@@ -6,32 +6,46 @@ const navMenu = document.getElementById("nav-menu");
 const burgerIcon = document.getElementById("burger-menu");
 const closeMenuIcon = document.getElementById("closeMenuIcon");
 
-let savedThemeChoice = localStorage.getItem("themeChoice");
+let themeSwitch = '0'; // 0 - dark, 1 - light
 
+let savedThemeChoice = localStorage.getItem("themeChoice");
 
 // Check if a theme choice has been saved
 if (savedThemeChoice !== null) {
-    
-  if (savedThemeChoice == "moon") {
-    themeIcon.name == "moon"
-    // console.log("smod")
+  if (savedThemeChoice == '0') {
+    themeIcon.name = "sunny";
+    document.body.classList.remove("light-mode");
+  }
+  else if(savedThemeChoice == '1') {
+    console.log("is it 1")
+    themeIcon.name = "moon";
     document.body.classList.add("light-mode");
   }
-  else{
-    document.body.classList.remove("light-mode");
-    // themeIcon.name === "moon"
-    // console.log("sad")
+}
+
+if (savedThemeChoice == '1') {
+  themeSwitch = '1'
+}
+themeChangeBtn.onclick = (e) => {
+  // Toggle theme and update the name attribute of themeIcon
+  themeIcon.name = themeIcon.name == "sunny" ? "moon" : "sunny";
+  // console.log(themeIcon.name)
+ document.body.classList.toggle("light-mode");
+ 
+  if(themeSwitch == '0') {
+    themeSwitch = '1';
+    console.log("enters 1")
+  }
+  else if(themeSwitch == '1') {
+    themeSwitch = '0';
+    console.log("became 0")
   }
 
-}
+  localStorage.setItem("themeChoice", themeSwitch);
+  console.log(localStorage.getItem("themeChoice"));
 
-themeChangeBtn.onclick = (e) => {
-  // change the value of the name attr in the theme icon
-  themeIcon.name === "sunny" ? themeIcon.name = "moon" : themeIcon.name = "sunny";
-  document.body.classList.toggle("light-mode");
-  localStorage.setItem("themeChoice", themeIcon.name);
-  // console.log(themeIcon.name)
-}
+};
+
 
 
 // open nav menu

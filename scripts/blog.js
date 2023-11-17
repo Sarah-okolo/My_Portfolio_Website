@@ -1,5 +1,8 @@
 AOS.init();
 
+// Future Feature: Add search bar to search for posts
+// Future Feature: Add sort functionality to display either external or home blog posts only
+
 const blogPostCardsContainer = document.getElementById("blog-post-cards-container");
 const seeDetailsOverlay = document.querySelectorAll(".see-details-overlay");
 const homeBlog = document.getElementById("home-blog");
@@ -97,15 +100,6 @@ const fetchBlogPostsInfo = async () => {
         // set visibility state for the read me button overlay on hover in-out of each card
         postCard.addEventListener('mouseover', ()=>{seeDetailsOverlay.style.display = "grid"})
         postCard.addEventListener('mouseout', ()=>{seeDetailsOverlay.style.display = "none"})
-
-        // console.log(postCard.children[1].children[1].children[1].textContent)
-        let howMany = 0;
-
-        if (postCard.children[1].children[1].children[1].textContent == "Home"){
-          howMany += 1;
-          console.log(howMany);
-          postCard.style.display="none"
-        }
       })
   }
   catch (error) {
@@ -129,8 +123,8 @@ document.body.onclick = (e) => {
 
 
 homeBlog.onclick = () => {
-  blogTypeInfo.innerHTML="These are articles posted on my personal blog page on Dev.to";
+  blogTypeInfo.innerHTML="Articles posted on my personal blog page on Dev.to";
 }
 externalBlog.onclick = () => {
-  blogTypeInfo.innerHTML=" These are articles I've written for external publications";
+  blogTypeInfo.innerHTML=" Articles written for external publications";
 }
